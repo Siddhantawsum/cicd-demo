@@ -19,7 +19,7 @@ jobs:
 
       - name: Build, tag, and push image to DockerHub
         env:
-          DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+          DOCKERHUB_USERNAME: ${{ siddhantlowkery }}
           IMAGE_NAME: my-image
           COMMIT_SHA: ${{ github.sha }}
         run: |
